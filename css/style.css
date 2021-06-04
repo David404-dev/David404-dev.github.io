@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.3rem;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4rem;
+  color: skyblue;
+  margin: 0.5em 10em;
+  background: darkcyan;
+  border-radius: 10px;
+}
+
+.h1p {
+  margin-left: 8em;
+}
+.name {
+  color: darkgoldenrod;
+}
+.answer {
+  text-decoration: line-through;
+}
+
+blockquote {
+  margin-left: 5em;
+  font-size: 2rem;
+}
+
+blockquote p {
+  margin-bottom: 0;
+}
+
+cite {
+  font-size: 1rem;
+  margin-left: 50em;
+}
+
+.generic {
+  margin-left: 8em;
+}
+
+img {
+  margin-left: 8em;
+  border-radius: 10px;
+}
+h2 {
+  margin-left: 5.2em;
+}
+ol {
+  margin-left: 7em;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: gray;
+}
+
+ul {
+  margin-left: 7em;
+}
+
+h2 ~ p {
+  margin-left: 7em;
+}
+
+h3 {
+  margin-left: 7em;
+}
