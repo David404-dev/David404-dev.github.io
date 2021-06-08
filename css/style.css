@@ -17,6 +17,19 @@ h1 {
   border-radius: 10px;
 }
 
+#moveTag {
+  cursor: grab;
+  cursor: -webkit-grab;
+  z-index: 10;
+  margin: 0 54.2em 0 5em;
+}
+.direction {
+  position: relative;
+  top: -45px;
+  left: 230px;
+  font-size: 1.5rem;
+}
+
 .h1p {
   margin-left: 8em;
 }
@@ -70,4 +83,16 @@ ul {
 
 h2 ~ p {
   margin-left: 7em;
+}
+.projects h2 {
+  margin-bottom: 1.2em;
+}
+.projects img {
+  margin: 1em 1em 1em 8em;
+}
+
+.projects img:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
 }
